@@ -1,0 +1,21 @@
+﻿Build started 17/10/2013 17:24:00.
+     1>Project "D:\Programming\C++\Space Attack!\Space Attack!\Space Attack!.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\Allegro\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Class1.cpp Class2.cpp Enemy.cpp Main.cpp
+         Main.cpp
+     1>d:\programming\c++\space attack!\space attack!\class1.h(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\programming\c++\space attack!\space attack!\class1.h(6): error C2864: 'Class1::lives' : only static const integral data members can be initialized within a class
+     1>d:\programming\c++\space attack!\space attack!\main.cpp(204): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+         Enemy.cpp
+     1>d:\programming\c++\space attack!\space attack!\enemy.cpp(43): error C3861: 'LoseLife': identifier not found
+     1>d:\programming\c++\space attack!\space attack!\enemy.cpp(44): error C2065: 'lives' : undeclared identifier
+         Class2.cpp
+         Class1.cpp
+     1>d:\programming\c++\space attack!\space attack!\class1.h(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\programming\c++\space attack!\space attack!\class1.h(6): error C2864: 'Class1::lives' : only static const integral data members can be initialized within a class
+         Generating Code...
+     1>Done Building Project "D:\Programming\C++\Space Attack!\Space Attack!\Space Attack!.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:11.76
